@@ -1,6 +1,6 @@
 /* MyLibrary.c
 */
-#include<math.h>
+
 double myvar = 3.14 ;
 
 float calcArea(float width, float height)
