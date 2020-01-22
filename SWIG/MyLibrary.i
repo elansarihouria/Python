@@ -1,6 +1,6 @@
 /*SWIG Interface file*/
 /* name of module to use in Python */
-%module Mylibrary
+%module MyLibrary
 
 
 %{

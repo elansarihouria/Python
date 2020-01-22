@@ -2997,16 +2997,16 @@ static swig_module_info swig_module = {swig_types, 1, 0, 0, 0, 0};
 #endif
 
 /*-----------------------------------------------
-              @(target):= _Mylibrary.so
+              @(target):= _MyLibrary.so
   ------------------------------------------------*/
 #if PY_VERSION_HEX >= 0x03000000
-#  define SWIG_init    PyInit__Mylibrary
+#  define SWIG_init    PyInit__MyLibrary
 
 #else
-#  define SWIG_init    init_Mylibrary
+#  define SWIG_init    init_MyLibrary
 
 #endif
-#define SWIG_name    "_Mylibrary"
+#define SWIG_name    "_MyLibrary"
 
 #define SWIGVERSION 0x030008 
 #define SWIG_VERSION SWIGVERSION
